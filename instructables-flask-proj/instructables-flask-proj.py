@@ -1,4 +1,4 @@
-from Flask import flask
+from flask import Flask
 from home.views import home_view
 
 def create_app(config_file):
