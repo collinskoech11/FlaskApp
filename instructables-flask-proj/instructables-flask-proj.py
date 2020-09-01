@@ -1,4 +1,5 @@
-from flask import Flask
+from Flask import Flask
+import os
 from home.views import home_view
 
 def create_app(config_file):
